@@ -39,7 +39,7 @@
     line: 'flavor = keystone'
     backup: yes
 
-- name: COnfigure Glance glance_store
+- name: Configure Glance glance_store
   lineinfile:
     dest: /etc/glance/glance-api.conf
     insertafter: '\[glance_store\]'
